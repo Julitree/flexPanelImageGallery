@@ -1,7 +1,8 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Indie Flower', cursive;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 *, *:before, *:after{
@@ -26,7 +27,7 @@ body{
                 font-size 0.7 cubic-bezier(0.61, -0.19, 0.7, -0.11),
                 flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
                 background 0.2s;
-    font-size: 20px;
+    font-size: 35px;
     background-size: cover;
     background-position: center;
     flex: 1;
@@ -37,19 +38,24 @@ body{
 
 .panel1{
 background-image: url(img/6.jpg);
+background-color: #581845;
 }
 
 .panel2{
     background-image: url(img/2.jpg);
+    background-color: #900c3f;
 }
 .panel3{
         background-image: url(img/1.jpg);
+        background-color: #c70039;
 }
 .panel4{
         background-image: url(img/3.jpg);
+        background-color: #ff5733;
 }
 .panel5{
         background-image: url(img/4.jpg);
+        background-color: #ffc300;
 }
 
 /*Flex Items*/
@@ -68,7 +74,7 @@ background-image: url(img/6.jpg);
     text-transform: uppercase;
     text-shadow: 0 0 4px rgba(0, 0, 0,0.72), 0 0 14px rgba(0, 0, 0,0.45);
     font-size: 2em;
-    background-color: #ffcfae57;
+    /* background-color: black; */
     
 }
 .fromTop{ transform: translateY(-100%);}
